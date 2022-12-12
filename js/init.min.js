@@ -1,4 +1,4 @@
-"undefined" == typeof window.AtKit ? (d = document, jf = d.createElement("script"), jf.src = M.cfg.wwwroot"/blocks/accessibility/js/atkit.js", jf.type = "text/javascript", jf.id = "AtKitLib", d.getElementsByTagName("head")[0].appendChild(jf), window.AtKitLoaded = function() {
+"undefined" == typeof window.AtKit ? (d = document, jf = d.createElement("script"), jf.src = M.cfg.wwwroot+"/blocks/accessibility/js/atkit.js", jf.type = "text/javascript", jf.id = "AtKitLib", d.getElementsByTagName("head")[0].appendChild(jf), window.AtKitLoaded = function() {
     var c = null;
     this.subscribe = function(b) {
         c = b

@@ -446,7 +446,7 @@
             },
             render: function() {
                 "undefined" == typeof d.$.facebox && d.addScript(a.internal.__faceboxURL);
-                d.bootstrap_analytics("UA-24512836-5");
+                //d.bootstrap_analytics("UA-24512836-5");
                 if (!a.internal.__invoked) {
                     0 ==
                         d.$("#sbarGhost").length && l();
