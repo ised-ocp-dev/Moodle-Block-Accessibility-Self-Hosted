@@ -5,7 +5,7 @@ M.block_accessibility = {
 		module.js script updates user settings and fetch updated stylesheet over AJAX for each action
 	*/
 
-	ATBAR_SRC: M.cfg.wwwroot+'./blocks/accessibility/js/init.min.js',
+	ATBAR_SRC: M.cfg.wwwroot+'/blocks/accessibility/js/init.min.js',
 
 	// font sizes in %, this is defined in changesize.php as well
 	DEFAULT_FONTSIZE: 100,
